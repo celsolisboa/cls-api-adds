@@ -3,13 +3,27 @@ Transform:
 - AWS::Serverless-2016-10-31
 Description: API de Integracao do SIA com o Active Directory
 
+Parameters:
+  StageName:
+    Type: String
+    Default: stage
+    Description: Stage API Teste
+  FunctionName:
+    Type: String
+    Default: Example
+    Description: alumniAdConsulta
+
 Resources:
   alumniAdConsulta:
     Type: AWS::Serverless::Function
     Properties:
       Handler: index.handler
       Runtime: nodejs8.10
-      CodeUri: s3://cl-app-codepipeline-deployment/developer/cl-alumniad/cl-alumniad.zip
+      CodeUri: .
+      Environment:
+        Variables:
+          STAGE: !Ref StageName
+      #CodeUri: s3://cl-app-codepipeline-deployment/developer/cl-alumniad/cl-alumniad.zip
       Role: arn:aws:iam::148100152883:role/service-role/alumniapiRole
 
       Events:
@@ -18,5 +32,12 @@ Resources:
           Properties:
             Path: /usuario/{user}
             Method: get
+
+
+  AlumniAD:
+    Type: 'AWS::Serverless::Api'
+    Properties:
+      StageName: !Ref StageName
+
 
 
