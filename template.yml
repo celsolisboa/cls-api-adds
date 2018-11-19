@@ -18,10 +18,15 @@ Resources:
         GetEvent:
           Type: Api
           Properties:
-            Path: /
+            Path: /usuario/-user-
             Method: get
-        PostEvent:
+         GetEvent:
           Type: Api
           Properties:
-            Path: /
-            Method: post
+            path: /usuario/-user-/existe
+            Method: get
+          GetEvent:
+            Type: Api
+            Properties:
+              path: /usuario/-user-/autenticar
+              Method: get
