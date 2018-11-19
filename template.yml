@@ -9,7 +9,7 @@ Resources:
     Properties:
       Handler: alumniapi_consulta.alumniapi_handler
       Runtime: nodejs8.10
-      CodeUri: ./index.js
+      CodeUri: ./
       Role:
         Fn::ImportValue:
           !Join ['-', ["alumniAD", !Ref 'AWS::Region', 'LambdaTrustRole']]
