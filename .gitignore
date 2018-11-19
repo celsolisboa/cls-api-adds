@@ -1,7 +1,8 @@
 .env
-.idea
 public/images/
 public/javascripts/
-/node_modules/
-/.idea/
-/CL-Alumni-API.iml
+!/node_modules/
+/node_modules/*
+CL-Alumni-API.iml
+!/.idea/
+/.idea/*
