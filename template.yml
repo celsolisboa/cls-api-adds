@@ -20,13 +20,3 @@ Resources:
           Properties:
             Path: /usuario/-user-
             Method: get
-         GetEvent:
-          Type: Api
-          Properties:
-            path: /usuario/-user-/existe
-            Method: get
-          GetEvent:
-            Type: Api
-            Properties:
-              path: /usuario/-user-/autenticar
-              Method: get
