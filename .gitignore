@@ -1,7 +1,7 @@
-node_modules
-build
-npm-debug.log
-.DS_Store
 .env
 .idea
-CL-Alumni-API.imp
+public/images/
+public/javascripts/
+/node_modules/
+/.idea/
+/CL-Alumni-API.iml
