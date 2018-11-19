@@ -10,7 +10,7 @@ Parameters:
     Description: Stage API Teste
   FunctionName:
     Type: String
-    Default: Example
+    Default: alumniAdConsulta
     Description: alumniAdConsulta
 
 Resources:
