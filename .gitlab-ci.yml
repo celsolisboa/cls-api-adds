@@ -13,8 +13,8 @@ deploy-job-production:
   - apt-get install --quiet python-pip zip --yes
   - pip install -U pip  # pip update
   - pip install awscli  # AWS CLI installation
-  - zip cls-aluno-prod.zip -r ./
-  - aws s3 cp cl-alumniad-api.zip $AWS_S3_LOCATION/production/cls-aluno/cls-aluno-prod.zip # Uploads the zipfile to S3 and expects the AWS Code Pipeline/Code Deploy to pick up
+  - zip ccl-alumniad-api-prod.zip -r ./
+  - aws s3 cp cl-alumniad-prod.zip $AWS_S3_LOCATION/production/cl-alumniad/cl-alumniad.zip # Uploads the zipfile to S3 and expects the AWS Code Pipeline/Code Deploy to pick up
   # requires previous CI stages to succeed in order to execute
   when: on_success
   stage: deploy
@@ -28,10 +28,10 @@ deploy-job-developer:
   - apt-get install --quiet zip --yes
   - pip install -U pip  # pip update
   - pip install awscli  # AWS CLI installation
-  - mv ./appspec.yml ./appspec-prod.yml
-  - mv ./appspec-dev.yml ./appspec.yml
-  - zip cls-aluno-dev.zip -r ./www/ appspec.yml
-  - aws s3 cp cls-aluno-dev.zip $AWS_S3_LOCATION/developer/cls-aluno/cls-aluno-dev.zip # Uploads the zipfile to S3 and expects the AWS Code Pipeline/Code Deploy to pick up
+  # - mv ./appspec.yml ./appspec-prod.yml
+  # - mv ./appspec-dev.yml ./appspec.yml
+  - zip cl-alumniad-api-dev.zip -r ./www/ appspec.yml
+  - ws s3 cp cl-alumniad-api-dev.zip $AWS_S3_LOCATION/developer/cl-alumniad/cl-alumniad.zip # Uploads the zipfile to S3 and expects the AWS Code Pipeline/Code Deploy to pick up
   # requires previous CI stages to succeed in order to execute
   when: on_success
   stage: deploy
