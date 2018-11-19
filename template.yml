@@ -9,8 +9,7 @@ Resources:
     Properties:
       Handler: index.handler
       Runtime: nodejs8.10
-      CodeUri: ./
-      # CodeUri: s3://cl-app-codepipeline-deployment/developer/cl-alumniad/cl-alumniad.zip
+      CodeUri: s3://cl-app-codepipeline-deployment/developer/cl-alumniad/cl-alumniad.zip
       Role: arn:aws:iam::148100152883:role/service-role/alumniapiRole
         # Fn::ImportValue:
           #!Join ['-', ["alumniAD", !Ref 'AWS::Region', 'LambdaTrustRole']]
