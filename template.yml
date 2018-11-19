@@ -10,9 +10,10 @@ Resources:
       Handler: index.handler
       Runtime: nodejs8.10
       CodeUri: s3://cl-app-codepipeline-deployment/developer/cl-alumniad/cl-alumniad.zip
-      Role:
-        Fn::ImportValue:
-          !Join ['-', ["alumniAD", !Ref 'AWS::Region', 'LambdaTrustRole']]
+      Role: alumniapiRole
+        # Fn::ImportValue:
+          #!Join ['-', ["alumniAD", !Ref 'AWS::Region', 'LambdaTrustRole']]
+
       Events:
         GetEvent:
           Type: Api
