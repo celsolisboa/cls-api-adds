@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Transform:
 - AWS::Serverless-2016-10-31
-Description: API de Integração do SIA com o Active Directory
+Description: API de Integracao do SIA com o Active Directory
 
 Resources:
   alumniAdConsulta:
@@ -10,7 +10,7 @@ Resources:
       Handler: index.handler
       Runtime: nodejs8.10
       CodeUri: s3://cl-app-codepipeline-deployment/developer/cl-alumniad/cl-alumniad.zip
-      Role: alumniapiRole
+      Role: alumniapiRole
         # Fn::ImportValue:
           #!Join ['-', ["alumniAD", !Ref 'AWS::Region', 'LambdaTrustRole']]
 
