@@ -1,8 +1,6 @@
 .env
 public/images/
 public/javascripts/
-!/node_modules/
-/node_modules/*
+/node_modules/
 CL-Alumni-API.iml
-!/.idea/
-/.idea/*
+/.idea/
