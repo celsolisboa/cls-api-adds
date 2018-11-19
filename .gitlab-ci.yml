@@ -31,7 +31,7 @@ deploy-job-developer:
   # - mv ./appspec.yml ./appspec-prod.yml
   # - mv ./appspec-dev.yml ./appspec.yml
   - zip cl-alumniad-api-dev.zip -r ./
-  - ws s3 cp cl-alumniad-api-dev.zip $AWS_S3_LOCATION/developer/cl-alumniad/cl-alumniad.zip # Uploads the zipfile to S3 and expects the AWS Code Pipeline/Code Deploy to pick up
+  - aws s3 cp cl-alumniad-api-dev.zip $AWS_S3_LOCATION/developer/cl-alumniad/cl-alumniad.zip # Uploads the zipfile to S3 and expects the AWS Code Pipeline/Code Deploy to pick up
   # requires previous CI stages to succeed in order to execute
   when: on_success
   stage: deploy
