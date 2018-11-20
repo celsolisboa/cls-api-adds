@@ -41,11 +41,6 @@ Resources:
             Path: /usuario/{user}/autenticar
             Method: get
 
-  AlumniAD:
-    Type: AWS::Serverless::Api
-    Properties:
-      StageName: !Ref StageName
-
 Transform:
 - AWS::Serverless-2016-10-31
 
