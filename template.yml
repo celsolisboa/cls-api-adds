@@ -1,6 +1,5 @@
 AWSTemplateFormatVersion: "2010-09-09"
-Transform:
-- AWS::Serverless-2016-10-31
+
 Description: API de Integracao do SIA com o Active Directory
 
 Parameters:
@@ -26,17 +25,27 @@ Resources:
       Role: arn:aws:iam::148100152883:role/service-role/alumniapiRole
 
       Events:
-        GetEvent:
+        usuarioConsulta:
           Type: Api
           Properties:
             Path: /usuario/{user}
             Method: get
-
+        usuarioExiste:
+          Type: Api
+          Properties:
+            Path: /usuario/{user}/existe
+            Method: get
+        usuarioAutentica:
+          Type: Api
+          Properties:
+            Path: /usuario/{user}/autenticar
+            Method: get
 
   AlumniAD:
-    Type: 'AWS::Serverless::Api'
+    Type: AWS::Serverless::Api
     Properties:
       StageName: !Ref StageName
 
-
+Transform:
+- AWS::Serverless-2016-10-31
 
