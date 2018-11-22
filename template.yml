@@ -40,6 +40,11 @@ Resources:
           Properties:
             Path: /usuario/{user}/autenticar
             Method: get
+        usuarioDeleta:
+          Type: Api
+          Properties:
+            Path: /usuario/{user}/deleta
+            Method: get
 
 Transform:
 - AWS::Serverless-2016-10-31
