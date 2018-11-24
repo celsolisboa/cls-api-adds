@@ -13,8 +13,8 @@ deploy-job-production:
   - apt-get install --quiet python-pip zip --yes
   - pip install -U pip  # pip update
   - pip install awscli  # AWS CLI installation
-  - zip ccl-alumniad-api-prod.zip -r ./
-  - aws s3 cp cl-alumniad-prod.zip $AWS_S3_LOCATION/production/cl-alumniad/cl-alumniad.zip # Uploads the zipfile to S3 and expects the AWS Code Pipeline/Code Deploy to pick up
+  - zip cl-alumniad-api-prod.zip -r ./
+  - aws s3 cp cl-alumniad-api-prod.zip $AWS_S3_LOCATION/production/cl-alumniad/cl-alumniad.zip # Uploads the zipfile to S3 and expects the AWS Code Pipeline/Code Deploy to pick up
   # requires previous CI stages to succeed in order to execute
   when: on_success
   stage: deploy
