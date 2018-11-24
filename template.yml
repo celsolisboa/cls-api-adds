@@ -8,10 +8,11 @@ Resources:
     Properties:
       Handler: index.handler
       Runtime: nodejs8.10
-      Tracing: Active
+      Tracing: Active'
+      FunctionName: 'alumniAdConsulta'
       VpcConfig:
         SecurityGroupIds: ['sg-82770bc9']
-        SubnetIds: subnet-912f8ebf
+        SubnetIds: ['subnet-912f8ebf]
       CodeUri: s3://cl-app-codepipeline-deployment/developer/cl-alumniad/cl-alumniad.zip
       Role: arn:aws:iam::148100152883:role/service-role/alumniapiRole
       Tags:
