@@ -7,15 +7,21 @@ Parameters:
     Type: String
     Default: stage
     Description: Stage API Teste
-  FunctionName:
-    Type: String
-    Default: alumniAdConsulta
-    Description: alumniAdConsulta
+
 
 Resources:
   alumniAdConsulta:
     Type: AWS::Serverless::Function
     Properties:
+      Tracing: Active
+      VpcConfig:
+        SecurityGroupIds: sg-82770bc9
+        SubnetIds: subnet-912f8ebf
+      AutoPublishAlias: live
+      FunctionName:
+        Type: String
+        Default: alumniAdConsulta
+        Description: alumniAdConsulta
       Handler: index.handler
       Runtime: nodejs8.10
       CodeUri: s3://cl-app-codepipeline-deployment/developer/cl-alumniad/cl-alumniad.zip
