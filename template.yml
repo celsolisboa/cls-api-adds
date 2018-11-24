@@ -2,13 +2,6 @@ AWSTemplateFormatVersion: "2010-09-09"
 
 Description: API de Integracao do SIA com o Active Directory
 
-Parameters:
-  StageName:
-    Type: String
-    Default: stage
-    Description: Stage API Teste
-
-
 Resources:
   alumniAdConsulta:
     Type: AWS::Serverless::Function
@@ -19,11 +12,7 @@ Resources:
       VpcConfig:
         SecurityGroupIds: sg-82770bc9
         SubnetIds: subnet-912f8ebf
-      AutoPublishAlias: live
       CodeUri: s3://cl-app-codepipeline-deployment/developer/cl-alumniad/cl-alumniad.zip
-      Environment:
-        Variables:
-          STAGE: !Ref StageName
       Role: arn:aws:iam::148100152883:role/service-role/alumniapiRole
       Tags:
         Grupo: AlumniAD-API
