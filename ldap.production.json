@@ -1,0 +1,7 @@
+{
+    "url": "ldap://172.1.0.100",
+    "user": "ldap@al.celsolisboa.edu.br",
+    "pass": "P@ssword2",
+    "reconnect": "true",
+    "userObjectClass": "User"
+}
