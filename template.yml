@@ -13,22 +13,21 @@ Resources:
   alumniAdConsulta:
     Type: AWS::Serverless::Function
     Properties:
+      Handler: index.handler
+      FunctionName: alumniAdConsulta
+      Runtime: nodejs8.10
       Tracing: Active
       VpcConfig:
         SecurityGroupIds: sg-82770bc9
         SubnetIds: subnet-912f8ebf
       AutoPublishAlias: live
-      FunctionName:
-        Type: String
-        Default: alumniAdConsulta
-        Description: alumniAdConsulta
-      Handler: index.handler
-      Runtime: nodejs8.10
       CodeUri: s3://cl-app-codepipeline-deployment/developer/cl-alumniad/cl-alumniad.zip
       Environment:
         Variables:
           STAGE: !Ref StageName
       Role: arn:aws:iam::148100152883:role/service-role/alumniapiRole
+      Tags:
+        Grupo: AlumniAD-API
 
       Events:
         usuarioConsulta:
