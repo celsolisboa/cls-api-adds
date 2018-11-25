@@ -2,8 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37fbcf30-4f7e-4f65-be86-a47a54d66fb3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/src/chainable.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/src/chainable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/src/group.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/src/group.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/src/internal/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/src/internal/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/src/internal/operations.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/src/internal/operations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/src/others.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/src/others.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/src/ou.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/src/ou.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/src/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/src/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/src/util/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/src/util/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/src/util/encodePassword.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/src/util/encodePassword.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/src/util/parseLocation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/src/util/parseLocation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/src/util/wrapAsync.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/src/util/wrapAsync.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/test/base.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/test/base.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/test/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/test/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/test/group.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/test/group.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/test/importConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/test/importConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/test/other.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/test/other.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/test/ou.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/test/ou.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/test/user.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/test/user.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ad/test/util.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ad/test/util.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/component-emitter/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/component-emitter/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/component-emitter/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/component-emitter/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/component-emitter/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/component-emitter/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/component-emitter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/component-emitter/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/superagent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/superagent/superagent.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,20 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/cadastro.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
               <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -217,6 +234,11 @@
             <path>
               <item name="CL-Alumni-API" type="b2602c69:ProjectViewProjectNode" />
               <item name="CL-Alumni-API" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CL-Alumni-API" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CL-Alumni-API" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -235,7 +257,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543148587611" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543149742244" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.13.0" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -283,7 +305,7 @@
       <workItem from="1542723820109" duration="98000" />
       <workItem from="1542723927851" duration="1970000" />
       <workItem from="1542906398938" duration="2399000" />
-      <workItem from="1543067702900" duration="9651000" />
+      <workItem from="1543067702900" duration="9939000" />
     </task>
     <task id="LOCAL-00001" summary="Ajuste do GIT">
       <created>1542623223462</created>
@@ -607,16 +629,23 @@
       <option name="project" value="LOCAL" />
       <updated>1543148581699</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Ajuste de Funcionalidades da API">
+      <created>1543149432282</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1543149432282</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33903000" />
+    <option name="totallyTimeSpent" value="34191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49863014" visible="true" weight="0.26895565" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49863014" visible="true" weight="0.26895565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.50136983" side_tool="true" weight="0.2532189" />
       <window_info id="Image Layers" order="3" />
@@ -633,7 +662,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -722,13 +751,6 @@
     <entry file="file://$PROJECT_DIR$/CL-Alumni-API.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/cadastro.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -754,6 +776,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/cadastro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
         </state>
       </provider>
     </entry>
