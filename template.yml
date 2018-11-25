@@ -3,17 +3,6 @@ AWSTemplateFormatVersion: "2010-09-09"
 Description: API de Integracao do SIA com o Active Directory
 
 Resources:
-  AlumniAD:
-    Type: AWS::Serverless::Api
-    Properties:
-      StageName: staging
-      DefinitionBody:
-        swagger: "2.0"
-        info:
-          title:
-            Ref: AWS::StackName
-          description: My API that uses custom authorizer
-          version: 1.0.0
   alumniAdConsulta:
     Type: AWS::Serverless::Function
     Properties:
