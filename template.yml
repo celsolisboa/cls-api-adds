@@ -8,12 +8,8 @@ Resources:
     Properties:
       FunctionName: !Sub "${AWS::StackName}-alumniAdConsulta"
       Handler: "index.handler"
-      CodeUri: s3://cl-app-codepipeline-deployment/developer/cl-alumniad/cl-alumniad.zip
       Runtime: nodejs8.10
       Tracing: "Active"
-      VpcConfig:
-        SecurityGroupIds: ['sg-82770bc9']
-        SubnetIds: ['subnet-912f8ebf','subnet-174b215d']
       Environment:
         Variables:
           NODE_ENV: production
