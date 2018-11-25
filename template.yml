@@ -7,6 +7,13 @@ Resources:
     Type: AWS::Serverless::Api
     Properties:
       StageName: staging
+      DefinitionBody:
+        swagger: "2.0"
+        info:
+          title:
+            Ref: AWS::StackName
+          description: My API that uses custom authorizer
+          version: 1.0.0
   alumniAdConsulta:
     Type: AWS::Serverless::Function
     Properties:
