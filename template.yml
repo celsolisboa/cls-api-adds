@@ -4,15 +4,16 @@ Description: API de Integracao do SIA com o Active Directory
 
 Resources:
   alumniAdConsulta:
-    Type: AWS::Serverless::Function
+    Type: "AWS::Serverless::Function"
     Properties:
-      Handler: index.handler
+      FunctionName: !Sub "${AWS::StackName}-alumniAdConsulta"
+      Handler: "index.handler"
+      CodeUri: "."
       Runtime: nodejs8.10
-      Tracing: 'Active'
+      Tracing: "Active"
       VpcConfig:
         SecurityGroupIds: ['sg-82770bc9']
         SubnetIds: ['subnet-912f8ebf','subnet-174b215d']
-      CodeUri: s3://cl-app-codepipeline-deployment/developer/cl-alumniad/cl-alumniad.zip
       Role: arn:aws:iam::148100152883:role/service-role/alumniapiRole
       Tags:
         Grupo: AlumniAD-API
