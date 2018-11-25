@@ -8,8 +8,7 @@ Resources:
     Properties:
       Handler: index.handler
       Runtime: nodejs8.10
-      Tracing:
-        Mode: Active
+      Tracing: 'Active'
       VpcConfig:
         SecurityGroupIds: ['sg-82770bc9']
         SubnetIds: ['subnet-912f8ebf']
