@@ -8,7 +8,7 @@ Resources:
     Properties:
       FunctionName: !Sub "${AWS::StackName}-alumniAdConsulta"
       Handler: "index.handler"
-      CodeUri: "."
+      CodeUri: s3://cl-app-codepipeline-deployment/developer/cl-alumniad/cl-alumniad.zip
       Runtime: nodejs8.10
       Tracing: "Active"
       VpcConfig:
