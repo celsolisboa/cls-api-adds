@@ -1,6 +1,7 @@
 .env
 public/images/
 public/javascripts/
-/node_modules/
 CL-Alumni-API.iml
 /.idea/
+.DS_Store
+routes/.DS_Store
