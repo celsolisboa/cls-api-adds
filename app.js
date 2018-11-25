@@ -5,8 +5,8 @@ var logger = require('morgan');
 
 var app = express();
 
-var ldapConsultaRouter = require('./routes/ldap/consulta');
-var ldapCadastroRouter = require('./routes/ldap/cadastro');
+var ldapConsultaRouter = require('./routes/consulta');
+var ldapCadastroRouter = require('./routes/cadastro');
 
 app.use('/consulta', ldapConsultaRouter);
 app.use('/cadastro', ldapCadastroRouter);
