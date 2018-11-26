@@ -20,27 +20,27 @@ Resources:
         usuarioConsulta:
           Type: Api
           Properties:
-            Path: /usuario/{user}
+            Path: /consulta/usuario/{user}
             Method: get
         usuarioExiste:
           Type: Api
           Properties:
-            Path: /usuario/{user}/existe
+            Path: /consulta/usuario/{user}/existe
             Method: get
         usuarioAutentica:
           Type: Api
           Properties:
-            Path: /usuario/{user}/autenticar
+            Path: /consulta/usuario/{user}/autenticar
             Method: get
         GetEvent:
           Type: Api
           Properties:
-            Path: /
+            Path: /consulta/usuario/teste
             Method: get
         PostEvent:
           Type: Api
           Properties:
-            Path: /
+            Path: /consulta/usuario/teste
             Method: post
 
 Transform:

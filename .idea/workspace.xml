@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="37fbcf30-4f7e-4f65-be86-a47a54d66fb3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/consulta.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/consulta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.yml" beforeDir="false" afterPath="$PROJECT_DIR$/template.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,12 +56,12 @@
           <entry key="json" value="39" />
           <entry key="txt" value="349" />
           <entry key="yaml" value="16" />
-          <entry key="yml" value="721" />
+          <entry key="yml" value="766" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="AWSCloudFormation (YAML)" value="572" />
+          <entry key="AWSCloudFormation (YAML)" value="617" />
           <entry key="Git file" value="14" />
           <entry key="JSON" value="39" />
           <entry key="JavaScript" value="60" />
@@ -90,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            <state relative-caret-position="645">
+              <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -108,7 +107,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/consulta.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="655">
@@ -177,10 +176,10 @@
         <option value="$PROJECT_DIR$/routes2/consulta.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/buildspec.yml" />
-        <option value="$PROJECT_DIR$/template.yml" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/consulta.js" />
+        <option value="$PROJECT_DIR$/template.yml" />
       </list>
     </option>
   </component>
@@ -295,14 +294,7 @@
       <workItem from="1542723927851" duration="1970000" />
       <workItem from="1542906398938" duration="2399000" />
       <workItem from="1543067702900" duration="14747000" />
-      <workItem from="1543239278397" duration="4259000" />
-    </task>
-    <task id="LOCAL-00010" summary="Ajustes no processo de CICD">
-      <created>1542647133852</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1542647133852</updated>
+      <workItem from="1543239278397" duration="5118000" />
     </task>
     <task id="LOCAL-00011" summary="Acerto no processo de criacao da funcao Lambda">
       <created>1542651047063</created>
@@ -640,11 +632,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543251103740</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Ajuste de Funcionalidades da API">
+      <created>1543251744881</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1543251744882</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43258000" />
+    <option name="totallyTimeSpent" value="44117000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -806,13 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -824,6 +816,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="655">
           <caret line="56" column="42" lean-forward="true" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
         </state>
       </provider>
     </entry>
