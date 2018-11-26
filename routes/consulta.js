@@ -48,6 +48,17 @@ router.get('/usuario/:user/deleta', async (req, res) => {
     });
 });
 
+router.get('/teste', function(req, res) {
+    res.send({
+        "Output": "Hello World!"
+    });
+});
+
+router.post('/teste', function(req, res) {
+    res.send({
+        "Output": "Hello World!"
+    });
+});
 /*res.render('ldap', { title: 'Executando!' });*/
 
 module.exports = router;

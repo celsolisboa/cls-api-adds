@@ -4,18 +4,6 @@ var app = express();
 var ldapConsultaRouter = require('./routes/consulta');
 var ldapCadastroRouter = require('./routes/cadastro');
 
-app.get('/', function(req, res) {
-    res.send({
-        "Output": "Hello World!"
-    });
-});
-
-app.post('/', function(req, res) {
-    res.send({
-        "Output": "Hello World!"
-    });
-});
-
 app.use('/consulta', ldapConsultaRouter);
 app.use('/cadastro', ldapCadastroRouter);
 

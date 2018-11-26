@@ -53,7 +53,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="14" />
-          <entry key="js" value="33" />
+          <entry key="js" value="60" />
           <entry key="json" value="39" />
           <entry key="txt" value="349" />
           <entry key="yaml" value="16" />
@@ -65,7 +65,7 @@
           <entry key="AWSCloudFormation (YAML)" value="572" />
           <entry key="Git file" value="14" />
           <entry key="JSON" value="39" />
-          <entry key="JavaScript" value="33" />
+          <entry key="JavaScript" value="60" />
           <entry key="PLAIN_TEXT" value="349" />
           <entry key="YAML" value="165" />
         </counts>
@@ -84,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -111,8 +111,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/consulta.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+            <state relative-caret-position="655">
+              <caret line="56" column="42" lean-forward="true" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -295,21 +295,7 @@
       <workItem from="1542723927851" duration="1970000" />
       <workItem from="1542906398938" duration="2399000" />
       <workItem from="1543067702900" duration="14747000" />
-      <workItem from="1543239278397" duration="3429000" />
-    </task>
-    <task id="LOCAL-00008" summary="Ajuste de arquivos yaml resposaveis pelo build e deploy.&#10;Criado funcao CI para gitlab">
-      <created>1542646150133</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1542646150133</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Ajustes no processo de CICD">
-      <created>1542646955850</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1542646955851</updated>
+      <workItem from="1543239278397" duration="4259000" />
     </task>
     <task id="LOCAL-00010" summary="Ajustes no processo de CICD">
       <created>1542647133852</created>
@@ -640,11 +626,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543241951365</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Ajuste de Funcionalidades da API">
+      <created>1543243225426</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1543243225426</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Ajuste de Funcionalidades da API">
+      <created>1543251103739</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1543251103740</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42428000" />
+    <option name="totallyTimeSpent" value="43258000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -815,15 +815,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/consulta.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        <state relative-caret-position="655">
+          <caret line="56" column="42" lean-forward="true" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
         </state>
       </provider>
     </entry>
