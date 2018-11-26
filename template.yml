@@ -35,12 +35,12 @@ Resources:
         GetEvent:
           Type: Api
           Properties:
-            Path: /consulta/usuario/teste
+            Path: /consulta/teste
             Method: get
         PostEvent:
           Type: Api
           Properties:
-            Path: /consulta/usuario/teste
+            Path: /consulta/teste
             Method: post
 
 Transform:
