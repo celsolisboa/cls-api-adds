@@ -27,16 +27,6 @@ router.get('/usuario/:user/existe', async (req, res) => {
     });
 });
 
-/* Checa se usuario existe */
-router.get('/', async (req, res) => {
-    const user = 'LDAP';
-    await ad.user(user).exists().then(respond => {
-        res.status(200).send(respond);
-    }).catch(err => {
-        res.status(502).send(respond, err);
-    });
-});
-
 /* Autentica Usuario */
 router.get('/usuario/:user/autenticar', async (req, res) => {
     const user = req.params.user;
