@@ -1,6 +1,8 @@
 AWSTemplateFormatVersion: "2010-09-09"
-
 Description: API de Integracao do SIA com o Active Directory
+Parameters:
+  Stage:
+    StageName: String
 Globals:
   Function:
     Runtime: nodejs8.10
@@ -8,12 +10,18 @@ Globals:
     Tags:
       Grupo: AlumniAD-API
 Resources:
+  AluminAD:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: !Ref Stage
+      Variables:
+        Stage: !Ref Stage
   alumniAdConsulta:
     Type: "AWS::Serverless::Function"
     Properties:
       FunctionName: !Sub "${AWS::StackName}-alumniAdConsulta"
       Handler: "index.handler"
-      StageName: Dev
+      Stage: Dev
       Environment:
         Variables:
           NODE_ENV: production
@@ -22,6 +30,7 @@ Resources:
         usuarioConsulta:
           Type: Api
           Properties:
+            RestApiId: !Ref AluminAD
             Path: /consulta/usuario/{user}
             Method: get
         usuarioExiste:
@@ -77,7 +86,17 @@ Resources:
           Properties:
             Path: /cadastro/turma
             Method: put
-
+Outputs:
+  ApiUrl:
+    Description: URL of your API endpoint
+    Value: !Join
+    - ''
+    - - https://
+      - !Ref AluminAD
+      - '.execute-api.'
+      - !Ref 'AWS::Region'
+      - '.amazonaws.com/'
+      - !Ref Stage
 Transform:
 - AWS::Serverless-2016-10-31
 
