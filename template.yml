@@ -4,7 +4,7 @@ Description: API de Integracao do SIA com o Active Directory
 Globals:
   Function:
     Runtime: nodejs8.10
-    StageName: Dev
+    Tracing: Active|PassThrough
     Tags:
       Grupo: AlumniAD-API
 Resources:
@@ -13,7 +13,7 @@ Resources:
     Properties:
       FunctionName: !Sub "${AWS::StackName}-alumniAdConsulta"
       Handler: "index.handler"
-      Tracing: Active|PassThrough
+      StageName: Dev
       Environment:
         Variables:
           NODE_ENV: production
@@ -49,7 +49,7 @@ Resources:
     Properties:
       FunctionName: !Sub "${AWS::StackName}-alumniAdCadastro"
       Handler: "index.handler"
-      Tracing: Active|PassThrough
+      StageName: Dev
       Environment:
         Variables:
           NODE_ENV: production
