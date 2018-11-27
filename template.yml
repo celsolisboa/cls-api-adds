@@ -1,8 +1,8 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Description: API de Integracao do SIA com o Active Directory
 Parameters:
-  Stage:
-    StageName: String
+  Stage: DEV
+
 Globals:
   Function:
     Runtime: nodejs8.10
@@ -36,21 +36,25 @@ Resources:
         usuarioExiste:
           Type: Api
           Properties:
+            RestApiId: !Ref AluminAD
             Path: /consulta/usuario/{user}/existe
             Method: get
         usuarioAutentica:
           Type: Api
           Properties:
+            RestApiId: !Ref AluminAD
             Path: /consulta/usuario/{user}/autenticar
             Method: get
         GetEvent:
           Type: Api
           Properties:
+            RestApiId: !Ref AluminAD
             Path: /consulta/teste
             Method: get
         PostEvent:
           Type: Api
           Properties:
+            RestApiId: !Ref AluminAD
             Path: /consulta/teste
             Method: post
   alumniAdCadastro:
@@ -69,34 +73,27 @@ Resources:
         usuarioCadastro:
           Type: Api
           Properties:
+            RestApiId: !Ref AluminAD
             Path: /cadastro/usuario/
             Method: put
         usuarioAtiva:
           Type: Api
           Properties:
+            RestApiId: !Ref AluminAD
             Path: /cadastro/usuario/{user}/ativa
             Method: put
         usuarioDesativa:
           Type: Api
           Properties:
+            RestApiId: !Ref AluminAD
             Path: /cadastro/usuario/{user}/desativa
             Method: put
         turmaCadastro:
           Type: Api
           Properties:
+            RestApiId: !Ref AluminAD
             Path: /cadastro/turma
             Method: put
-Outputs:
-  ApiUrl:
-    Description: URL of your API endpoint
-    Value: !Join
-    - ''
-    - - https://
-      - !Ref AluminAD
-      - '.execute-api.'
-      - !Ref 'AWS::Region'
-      - '.amazonaws.com/'
-      - !Ref Stage
 Transform:
 - AWS::Serverless-2016-10-31
 
