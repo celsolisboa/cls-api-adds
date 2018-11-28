@@ -107,7 +107,7 @@ Resources:
   APIDomain:
     Type: AWS::Route53::RecordSetGroup
     Properties:
-      HostedZoneName: celsolisboa.edu.br
+      HostedZoneName: celsolisboa.edu.br.
       RecordSets:
       - Name: !Ref AlumniADDomainName
         Type: A
