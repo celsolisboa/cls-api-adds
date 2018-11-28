@@ -90,6 +90,31 @@ Resources:
             RestApiId: !Ref AluminAD
             Path: /cadastro/turma
             Method: put
+
+  AlumniADDomainName:
+    Type: AWS::ApiGateway::DomainName
+    Properties:
+      CertificateArn: arn:aws:acm:us-east-1:148100152883:certificate/a0616fd0-5867-4cdc-bfa5-59ae5b404483
+      DomainName: alumniad-api-dev.celsolisboa.edu.br
+
+  APIBasePathMapping:
+    Type: AWS::ApiGateway::BasePathMapping
+    Properties:
+      DomainName: !Ref AlumniADDomainName
+      RestApiId: !Ref AluminAD
+      Stage: dev
+
+  APIDomain:
+    Type: AWS::Route53::RecordSetGroup
+    Properties:
+      HostedZoneName: celsolisboa.edu.br
+      RecordSets:
+      - Name: !Ref AlumniADDomainName
+        Type: A
+        AliasTarget:
+          DNSName: !GetAtt AlumniADDomainName.DistributionDomainName
+          HostedZoneId: Z2550BACZDRIQW # static ID for CloudFront aliases
+
 Transform:
 - AWS::Serverless-2016-10-31
 
