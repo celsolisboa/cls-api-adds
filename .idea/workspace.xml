@@ -63,7 +63,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="AWSCloudFormation (YAML)" value="1428" />
+          <entry key="AWSCloudFormation (YAML)" value="1446" />
           <entry key="Git file" value="14" />
           <entry key="JSON" value="45" />
           <entry key="JavaScript" value="60" />
@@ -94,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="101" column="6" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
+            <state relative-caret-position="433">
+              <caret line="102" column="18" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -292,21 +292,7 @@
       <workItem from="1543336047405" duration="60000" />
       <workItem from="1543336129222" duration="6464000" />
       <workItem from="1543407999545" duration="2650000" />
-      <workItem from="1543414326322" duration="5512000" />
-    </task>
-    <task id="LOCAL-00031" summary="Ajuste de Funcionalidades da API">
-      <created>1543069019153</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1543069019153</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Ajuste de Funcionalidades da API">
-      <created>1543069804965</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1543069804965</updated>
+      <workItem from="1543414326322" duration="6411000" />
     </task>
     <task id="LOCAL-00033" summary="Ajuste de Funcionalidades da API">
       <created>1543069956614</created>
@@ -637,11 +623,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543431531972</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Ajustes no Processo do CloudFormation">
+      <created>1543431888862</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1543431888862</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Ajustes no Processo do CloudFormation">
+      <created>1543432410416</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1543432410417</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61793000" />
+    <option name="totallyTimeSpent" value="62692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -817,8 +817,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="101" column="6" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
+        <state relative-caret-position="433">
+          <caret line="102" column="18" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
         </state>
       </provider>
     </entry>
