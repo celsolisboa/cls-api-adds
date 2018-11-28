@@ -96,12 +96,11 @@ Resources:
     DependsOn: AluminAD
     Type: AWS::ApiGateway::DomainName
     Properties:
-      CertificateArn: arn:aws:acm:us-east-1:148100152883:certificate/a0616fd0-5867-4cdc-bfa5-59ae5b404483
       DomainName: alumniad-api-dev.celsolisboa.edu.br
       EndpointConfiguration:
         Types:
         - REGIONAL
-
+      RegionalCertificateArn: arn:aws:acm:us-east-1:148100152883:certificate/a0616fd0-5867-4cdc-bfa5-59ae5b404483
   APIBasePathMapping:
     Type: AWS::ApiGateway::BasePathMapping
     Properties:
