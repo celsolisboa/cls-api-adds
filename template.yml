@@ -96,10 +96,9 @@ Resources:
     Type: AWS::ApiGateway::DomainName
     Properties:
       CertificateArn: arn:aws:acm:us-east-1:148100152883:certificate/a0616fd0-5867-4cdc-bfa5-59ae5b404483
-      DomainName: alumniad-api4-dev.celsolisboa.edu.br
+      DomainName: alumniad-api-dev.celsolisboa.edu.br
 
   APIBasePathMapping:
-    DependsOn: AlumniADDomainName
     Type: AWS::ApiGateway::BasePathMapping
     Properties:
       DomainName: !Ref AlumniADDomainName
@@ -107,7 +106,6 @@ Resources:
       Stage: dev
 
   APIDomain:
-    DependsOn: APIBasePathMapping
     Type: AWS::Route53::RecordSetGroup
     Properties:
       HostedZoneName: celsolisboa.edu.br.
