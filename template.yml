@@ -111,13 +111,14 @@ Resources:
   APIDomain:
     Type: AWS::Route53::RecordSetGroup
     Properties:
-      HostedZoneName: celsolisboa.edu.br.
-      RecordSets:
-      - Name: !Ref AlumniADDomainName
-        Type: CNAME
-        TTL: 900
-        ResourceRecords:
-          - !GetAtt AlumniADDomainName.DistributionDomainName
+      Name: alumniad-api-dev.celsolisboa.edu.br
+      Type: A
+      AliasTarget:
+        # The line below is what I am hoping for
+        DNSName: !GetAtt [AlumniADDomainName, RegionalDomainName]
+        EvaluateTargetHealth: false
+        HostedZoneId: Z2550BACZDRIQW
+      HostedZoneId: Z2550BACZDRIQW
 
 Transform:
 - AWS::Serverless-2016-10-31

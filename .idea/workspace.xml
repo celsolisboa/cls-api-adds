@@ -63,7 +63,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="AWSCloudFormation (YAML)" value="1446" />
+          <entry key="AWSCloudFormation (YAML)" value="1462" />
           <entry key="Git file" value="14" />
           <entry key="JSON" value="45" />
           <entry key="JavaScript" value="60" />
@@ -94,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="102" column="18" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
+            <state relative-caret-position="548">
+              <caret line="119" column="36" lean-forward="true" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -203,8 +203,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1003" />
+    <option name="width" value="1440" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -292,21 +292,7 @@
       <workItem from="1543336047405" duration="60000" />
       <workItem from="1543336129222" duration="6464000" />
       <workItem from="1543407999545" duration="2650000" />
-      <workItem from="1543414326322" duration="6411000" />
-    </task>
-    <task id="LOCAL-00033" summary="Ajuste de Funcionalidades da API">
-      <created>1543069956614</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1543069956614</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Ajuste de Funcionalidades da API">
-      <created>1543070354033</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1543070354033</updated>
+      <workItem from="1543414326322" duration="7451000" />
     </task>
     <task id="LOCAL-00035" summary="Ajuste de Funcionalidades da API">
       <created>1543070762193</created>
@@ -637,11 +623,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543432410417</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Ajustes no Processo do CloudFormation">
+      <created>1543432797707</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1543432797707</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Ajustes no Processo do CloudFormation">
+      <created>1543434106549</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1543434106549</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62692000" />
+    <option name="totallyTimeSpent" value="63732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -653,10 +653,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1003" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49863014" visible="true" weight="0.020766772" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49863014" visible="true" weight="0.027896997" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.50136983" side_tool="true" weight="0.2532189" />
       <window_info id="Image Layers" order="3" />
@@ -817,8 +817,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="102" column="18" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
+        <state relative-caret-position="548">
+          <caret line="119" column="36" lean-forward="true" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="36" />
         </state>
       </provider>
     </entry>
