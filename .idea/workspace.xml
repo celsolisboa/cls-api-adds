@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="37fbcf30-4f7e-4f65-be86-a47a54d66fb3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.yml" beforeDir="false" afterPath="$PROJECT_DIR$/template.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +63,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="AWSCloudFormation (YAML)" value="1375" />
+          <entry key="AWSCloudFormation (YAML)" value="1394" />
           <entry key="Git file" value="14" />
           <entry key="JSON" value="45" />
           <entry key="JavaScript" value="60" />
@@ -93,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="111" column="17" lean-forward="true" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
+            <state relative-caret-position="488">
+              <caret line="103" column="15" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -291,21 +292,7 @@
       <workItem from="1543336047405" duration="60000" />
       <workItem from="1543336129222" duration="6464000" />
       <workItem from="1543407999545" duration="2650000" />
-      <workItem from="1543414326322" duration="2010000" />
-    </task>
-    <task id="LOCAL-00027" summary="Implementado metodos GET para API">
-      <created>1542724411085</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1542724411085</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Implementado metodos GET para API">
-      <created>1542724769526</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1542724769526</updated>
+      <workItem from="1543414326322" duration="4307000" />
     </task>
     <task id="LOCAL-00029" summary="Implementado metodos GET para API">
       <created>1542906572736</created>
@@ -636,11 +623,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543424510865</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Ajustes no Processo do CloudFormation">
+      <created>1543425196266</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1543425196266</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Ajustes no Processo do CloudFormation">
+      <created>1543427083058</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1543427083058</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58291000" />
+    <option name="totallyTimeSpent" value="60588000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -815,8 +816,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="111" column="17" lean-forward="true" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
+        <state relative-caret-position="488">
+          <caret line="103" column="15" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="15" />
         </state>
       </provider>
     </entry>

@@ -102,7 +102,6 @@ Resources:
   APIBasePathMapping:
     Type: AWS::ApiGateway::BasePathMapping
     Properties:
-      BasePath: /
       DomainName: !Ref AlumniADDomainName
       RestApiId: !Ref AluminAD
       Stage: dev
@@ -113,10 +112,10 @@ Resources:
       HostedZoneName: celsolisboa.edu.br.
       RecordSets:
       - Name: !Ref AlumniADDomainName
-        Type: A
-        AliasTarget:
-          DNSName: !GetAtt AlumniADDomainName.DistributionDomainName
-          HostedZoneId: Z2550BACZDRIQW # static ID for CloudFront aliases
+        Type: CNAME
+        TTL: 900
+        ResourceRecords:
+          - !GetAtt AlumniADDomainName.DistributionDomainName
 
 Transform:
 - AWS::Serverless-2016-10-31
