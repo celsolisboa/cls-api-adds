@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="37fbcf30-4f7e-4f65-be86-a47a54d66fb3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template.yml" beforeDir="false" afterPath="$PROJECT_DIR$/template.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,7 +66,7 @@
           <entry key="Git file" value="14" />
           <entry key="JSON" value="45" />
           <entry key="JavaScript" value="60" />
-          <entry key="PLAIN_TEXT" value="349" />
+          <entry key="PLAIN_TEXT" value="386" />
           <entry key="YAML" value="165" />
         </counts>
       </usages-collector>
@@ -94,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="96" column="105" lean-forward="true" selection-start-line="96" selection-start-column="105" selection-end-line="96" selection-end-column="105" />
+            <state relative-caret-position="608">
+              <caret line="109" column="41" lean-forward="true" selection-start-line="109" selection-start-column="41" selection-end-line="109" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -292,21 +291,7 @@
       <workItem from="1543336047405" duration="60000" />
       <workItem from="1543336129222" duration="6464000" />
       <workItem from="1543407999545" duration="2650000" />
-      <workItem from="1543414326322" duration="237000" />
-    </task>
-    <task id="LOCAL-00023" summary="Implementado metodos GET para API">
-      <created>1542659556902</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1542659556902</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Implementado metodos GET para API">
-      <created>1542660829251</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1542660829251</updated>
+      <workItem from="1543414326322" duration="767000" />
     </task>
     <task id="LOCAL-00025" summary="Implementado metodos GET para API">
       <created>1542663120485</created>
@@ -637,11 +622,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543413764229</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Ajustes no Processo do CloudFormation">
+      <created>1543414606719</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1543414606720</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Ajustes no Processo do CloudFormation">
+      <created>1543419468894</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1543419468894</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56518000" />
+    <option name="totallyTimeSpent" value="57048000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -727,7 +726,8 @@
     <MESSAGE value="Implementado metodos GET para API" />
     <MESSAGE value="Implementado Componentes da funcoes nas rotas" />
     <MESSAGE value="Ajuste de Funcionalidades da API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste de Funcionalidades da API" />
+    <MESSAGE value="Ajustes no Processo do CloudFormation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes no Processo do CloudFormation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -815,8 +815,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="96" column="105" lean-forward="true" selection-start-line="96" selection-start-column="105" selection-end-line="96" selection-end-column="105" />
+        <state relative-caret-position="608">
+          <caret line="109" column="41" lean-forward="true" selection-start-line="109" selection-start-column="41" selection-end-line="109" selection-end-column="41" />
         </state>
       </provider>
     </entry>
