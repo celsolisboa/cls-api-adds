@@ -12,6 +12,7 @@ Resources:
     Type: AWS::Serverless::Api
     Properties:
       StageName: dev
+      EndpointConfiguration: Regional
       Variables:
         Stage: dev
   alumniAdConsulta:
@@ -101,9 +102,9 @@ Resources:
   APIBasePathMapping:
     Type: AWS::ApiGateway::BasePathMapping
     Properties:
+      BasePath: /
       DomainName: !Ref AlumniADDomainName
       RestApiId: !Ref AluminAD
-      BasePath: /
       Stage: dev
 
   APIDomain:
