@@ -1,4 +1,4 @@
-### CLS-ALUNO ####################################################
+### CLS-API-EAD ##############################################
 image: python:jessie
 
 before_script: #Global script (Run before each stage)
@@ -19,11 +19,11 @@ deploy-job-production:
   when: on_success
   stage: deploy
   environment: production #Assign the Gitlab Environment for tracking purposes
+  on_success: external
   only:
   - master
 
 deploy-job-developer:
-  image: python:jessie
   script:
   - apt-get install --quiet zip --yes
   - pip install -U pip  # pip update
@@ -36,7 +36,7 @@ deploy-job-developer:
   when: on_success
   stage: deploy
   environment: developer #Assign the Gitlab Environment for tracking purposes
+  on_success: external
   only:
   - develop
   - feature/cicd
-
