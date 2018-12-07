@@ -1,4 +1,4 @@
-[![Build Status](http://jenkins.celsolisboa.edu.br:8080/buildStatus/icon?job=Celso Online/API ADDS/Teste de Build)]
+[![Build Status](http://jenkins.celsolisboa.edu.br:8080/buildStatus/icon?job=Celso Online/API ADDS/Teste de Build)](http://jenkins.celsolisboa.edu.br:8080/job/Celso Online/API ADDS/Teste de Build)
 
 # CLS-API-ADDS
 
