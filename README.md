@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/username/projectname.svg?branch=master)](https://travis-ci.com/username/projectname)
+http://jenkins.celsolisboa.edu.br:8080/job/Celso%20Online/job/API%20ADDS/job/Teste%20de%20Build/badge/icon
 
 # CLS-API-ADDS
 
