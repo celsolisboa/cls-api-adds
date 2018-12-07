@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/username/projectname.svg?branch=master)](https://travis-ci.com/username/projectname)
+
 # CLS-API-ADDS
 
 One Paragraph of project description goes here
